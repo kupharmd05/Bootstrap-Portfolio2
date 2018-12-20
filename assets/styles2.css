@@ -71,8 +71,13 @@ h2 {
     color: #ffffff;
     width: 100%;
     text-align: center;
+    text-decoration: none;
     
 }
+/* #kineticCrystal {
+    height: auto;   
+    width: auto;
+} */
 
 #flower {
     background-color: #4aaaa5;
