@@ -62,42 +62,48 @@ h2 {
 
 #beach {
     background-color: #4aaaa5;
-    color: #ffffff;
+    /* color: #ffffff; */
     width: 100%;
     text-align: center;
+    /* text-decoration: none; */
 }
 #city {
     background-color: #4aaaa5;
-    color: #ffffff;
+    /* color: #ffffff; */
     width: 100%;
     text-align: center;
-    text-decoration: none;
+    /* text-decoration: none; */
     
 }
-/* #kineticCrystal {
-    height: auto;   
-    width: auto;
-} */
 
 #flower {
     background-color: #4aaaa5;
-    color: #ffffff;
+    /* color: #ffffff; */
     width: 100%;
     text-align: center;
+    /* text-decoration: none; */
 }
 #sunset {
     background-color: #4aaaa5;
-    color: #ffffff;
+    /* color: #ffffff; */
     width: 100%;
     text-align: center;
+    /* text-decoration: none; */
 }
 #trees {
     background-color: #4aaaa5;
-    color: #ffffff;
+    /* color: #ffffff; */
     width: 100%;
     text-align: center;
+    /* text-decoration: none; */
+}
+a {
+    color: #ffffff;
 }
 
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
 
 .footer {
     width: 100%;
