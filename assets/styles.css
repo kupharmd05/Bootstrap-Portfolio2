@@ -51,7 +51,7 @@ html, body {
     animation: sign-anim var(--sign-duration) var(--sign-delay) steps(var(--sign-frames)) forwards;
 }
 
-a #dex-sign:hover {
+#dex-sign:hover {
     --sign-hover-color-spin: 165deg;
     opacity: 1;
     -webkit-filter: invert(30%) brightness(80%) sepia(100%) contrast(110%) saturate(953%) hue-rotate(var(--sign-hover-color-spin));
