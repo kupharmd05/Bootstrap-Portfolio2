@@ -48,6 +48,9 @@ html, body {
 }
 
 #dex-sign .play {
+    -moz-animation: sign-anim var(--sign-duration) var(--sign-delay) steps(var(--sign-frames)) forwards;
+    -o-animation: sign-anim var(--sign-duration) var(--sign-delay) steps(var(--sign-frames)) forwards;
+    -webkit-animation: sign-anim var(--sign-duration) var(--sign-delay) steps(var(--sign-frames)) forwards;
     animation: sign-anim var(--sign-duration) var(--sign-delay) steps(var(--sign-frames)) forwards;
 }
 
