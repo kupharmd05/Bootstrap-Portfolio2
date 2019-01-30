@@ -57,9 +57,21 @@ html, body {
     -webkit-filter: invert(30%) brightness(80%) sepia(100%) contrast(110%) saturate(953%) hue-rotate(var(--sign-hover-color-spin));
 }
 
+@-webkit-keyframes sign-anim {
+    to {
+        background-position: 0 var(--sign-frames) * -(var(--sign-y));
+    }
+}
+
+@-moz-keyframes sign-anim {
+    to {
+        background-position: 0 var(--sign-frames) * -(var(--sign-y));
+    }
+}
+
 @keyframes sign-anim {
     to {
-        background-position: 0 var(--sign-frames) * -(var(--sign-y))
+        background-position: 0 var(--sign-frames) * -(var(--sign-y));
     }
 }
 
