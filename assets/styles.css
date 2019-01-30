@@ -1,6 +1,14 @@
 html, body {
     height: 100%
 }
+:root {
+--sign-x: 735px;
+--sign-y: 218px;
+--sign-frames: 85;
+--sign-duration: 3.5s;
+--sign-delay: 0.2s;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -25,8 +33,34 @@ html, body {
     letter-spacing: .15em;
     text-shadow: 
      5px 3px 3px gray;
+}
 
-    
+
+
+
+
+#dex-sign {
+    display: inline-block;
+    margin: 30px 10px 15px 10px;
+    width: var(--sign-x);
+    height: var(--sign-y);
+    background: url("images/bryce-sig.png");
+}
+
+#dex-sign .play {
+    animation: sign-anim var(--sign-duration) var(--sign-delay) steps(var(--sign-frames)) forwards;
+}
+
+a #dex-sign:hover {
+    --sign-hover-color-spin: 165deg;
+    opacity: 1;
+    -webkit-filter: invert(30%) brightness(80%) sepia(100%) contrast(110%) saturate(953%) hue-rotate(var(--sign-hover-color-spin));
+}
+
+@keyframes sign-anim {
+    to {
+        background-position: 0 var(--sign-frames) * -(var(--sign-y))
+    }
 }
 
 
