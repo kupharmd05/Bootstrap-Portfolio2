@@ -1,13 +1,16 @@
 html, body {
     height: 100%
 }
-:root {
+#enterButton:hover {
+    font-size: 150%;
+}
+/* :root {
 --sign-x: 735px;
 --sign-y: 218px;
 --sign-frames: 85;
 --sign-duration: 3.5s;
 --sign-delay: 0.2s;
-}
+} */
 
 * {
     box-sizing: border-box;
@@ -35,11 +38,36 @@ html, body {
      5px 3px 3px gray;
 }
 
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-100%);
+       }
+    100% {
+        transform: translateX(0);
+    }   
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.slideLeft {
+    animation: 1s ease-out 0s 1 slideLeft
+}
+.slideRight {
+    animation: 1s ease-out 0s 1 slideRight
+}
 
 
 
-
-#dex-sign {
+/* future idea */
+/* #dex-sign {
     display: inline-block;
     margin: 30px 10px 15px 10px;
     width: var(--sign-x);
@@ -76,7 +104,7 @@ html, body {
     to {
         background-position: 0 var(--sign-frames) * -(var(--sign-y));
     }
-}
+} */
 
 
 .about {
