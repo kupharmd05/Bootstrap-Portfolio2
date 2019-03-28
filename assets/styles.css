@@ -7,13 +7,7 @@ html, body {
     font-size: 120%;
     
 }
-/* :root {
---sign-x: 735px;
---sign-y: 218px;
---sign-frames: 85;
---sign-duration: 3.5s;
---sign-delay: 0.2s;
-} */
+
 
 * {
     box-sizing: border-box;
@@ -41,73 +35,185 @@ html, body {
      5px 3px 3px gray;
 }
 
-@keyframes slideLeft {
-    0% {
-        transform: translateX(-100%);
-       }
-    100% {
-        transform: translateX(0);
-    }   
+svg {
+    width: 100%;
+    height: auto;
 }
-
-@keyframes slideRight {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
-
-
-.slideLeft {
-    animation: 1s ease-out 0s 1 slideLeft
-}
-.slideRight {
-    animation: 1s ease-out 0s 1 slideRight
-}
-
-
-
-/* future idea */
-/* #dex-sign {
-    display: inline-block;
-    margin: 30px 10px 15px 10px;
-    width: var(--sign-x);
-    height: var(--sign-y);
-    background: url("images/bryce-sig.png");
-}
-
-#dex-sign .play {
-    -moz-animation: sign-anim var(--sign-duration) var(--sign-delay) steps(var(--sign-frames)) forwards;
-    -o-animation: sign-anim var(--sign-duration) var(--sign-delay) steps(var(--sign-frames)) forwards;
-    -webkit-animation: sign-anim var(--sign-duration) var(--sign-delay) steps(var(--sign-frames)) forwards;
-    animation: sign-anim var(--sign-duration) var(--sign-delay) steps(var(--sign-frames)) forwards;
-}
-
-#dex-sign:hover {
-    --sign-hover-color-spin: 165deg;
-    opacity: 1;
-    -webkit-filter: invert(30%) brightness(80%) sepia(100%) contrast(110%) saturate(953%) hue-rotate(var(--sign-hover-color-spin));
-}
-
-@-webkit-keyframes sign-anim {
-    to {
-        background-position: 0 var(--sign-frames) * -(var(--sign-y));
-    }
-}
-
-@-moz-keyframes sign-anim {
-    to {
-        background-position: 0 var(--sign-frames) * -(var(--sign-y));
-    }
-}
-
-@keyframes sign-anim {
-    to {
-        background-position: 0 var(--sign-frames) * -(var(--sign-y));
-    }
+/* #svg3849 {
+    height: 50%;
+    width: 70%
 } */
+
+path {
+    stroke: #fff;
+    fill: none;
+    stroke-width: 1.46500003;
+    stroke-linecap: round;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-dasharray:none;
+    stroke-opacity:1
+  
+}
+#path3861 {
+    stroke-dasharray: 30;
+    animation: write1 10s forwards linear;
+}
+#path3859 {
+    stroke-dasharray: 60;
+    animation: write2 10s forwards linear;
+}
+
+#path3863 {
+    stroke-dasharray: 43;
+    animation: write3 10s forwards linear;
+}
+#path3865 {
+    stroke-dasharray: 83;
+    animation: write4 10s forwards linear;
+}
+#path3867 {
+    stroke-dasharray: 32;
+    animation: write5 10s forwards linear;
+}
+#path3871 {
+    stroke-dasharray: 38;
+    animation: write6 10s forwards linear;
+}
+#path3873 {
+    stroke-dasharray: 128;
+    animation: write7 10s forwards linear;
+}
+#path3875 {
+    stroke-dasharray: 32;
+    animation: write8 10s forwards linear;
+}
+#path3877 {
+    stroke-dasharray: 45;
+    animation: write9 10s forwards linear;
+}
+#path3879 {
+    stroke-dasharray: 35;
+    animation: write10 10s forwards linear;
+}
+#path3881 {
+    stroke-dasharray: 34;
+    animation: write11 10s forwards linear;
+}
+#path3883 {
+    stroke-dasharray: 47;
+    animation: write12 10s forwards linear;
+}
+#path3885 {
+    stroke-dasharray: 9;
+    animation: write13 9s forwards linear;
+}
+
+@keyframes write1 {
+    0% {
+        stroke-dashoffset: 30;
+    }
+    7% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes write2 {
+    0%, 7% {
+        stroke-dashoffset: 60;
+    }
+    14% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write3 {
+    0%, 14% {
+        stroke-dashoffset: 43;
+    }
+    21% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write4 {
+    0%, 21% {
+        stroke-dashoffset: 83;
+    }
+    28% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write5 {
+    0%, 28% {
+        stroke-dashoffset: 32;
+    }
+    35% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write6 {
+    0%,35% {
+        stroke-dashoffset: 38;
+    }
+    42% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write7 {
+    0%, 42% {
+        stroke-dashoffset: 128;
+    }
+    49% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write8 {
+    0%, 49% {
+        stroke-dashoffset: 32;
+    }
+    56% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write9 {
+    0%, 56% {
+        stroke-dashoffset: 45;
+    }
+    63% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write10 {
+    0%, 63% {
+        stroke-dashoffset: 35;
+    }
+    70% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write11 {
+    0%, 70% {
+        stroke-dashoffset: 34;
+    }
+    77% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write12 {
+    0%, 77% {
+        stroke-dashoffset: 47;
+    }
+    83% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes write13 {
+    0%, 90% {
+        stroke-dashoffset: 9;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
 
 
 .about {
