@@ -24,7 +24,7 @@ html, body {
 .elegantshadow {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic;
     font-size: 72px;
-    padding: 80px 50px;
+    padding: 80px 50px 30px;
     text-align: center;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
@@ -39,10 +39,6 @@ svg {
     width: 100%;
     height: auto;
 }
-/* #svg3849 {
-    height: 50%;
-    width: 70%
-} */
 
 path {
     stroke: #fff;
@@ -57,56 +53,56 @@ path {
 }
 #path3861 {
     stroke-dasharray: 30;
-    animation: write1 10s forwards linear;
+    animation: write1 6s forwards linear;
 }
 #path3859 {
     stroke-dasharray: 60;
-    animation: write2 10s forwards linear;
+    animation: write2 6s forwards linear;
 }
 
 #path3863 {
     stroke-dasharray: 43;
-    animation: write3 10s forwards linear;
+    animation: write3 6s forwards linear;
 }
 #path3865 {
     stroke-dasharray: 83;
-    animation: write4 10s forwards linear;
+    animation: write4 6s forwards linear;
 }
 #path3867 {
     stroke-dasharray: 32;
-    animation: write5 10s forwards linear;
+    animation: write5 6s forwards linear;
 }
 #path3871 {
     stroke-dasharray: 38;
-    animation: write6 10s forwards linear;
+    animation: write6 6s forwards linear;
 }
 #path3873 {
     stroke-dasharray: 128;
-    animation: write7 10s forwards linear;
+    animation: write7 6s forwards linear;
 }
 #path3875 {
     stroke-dasharray: 32;
-    animation: write8 10s forwards linear;
+    animation: write8 6s forwards linear;
 }
 #path3877 {
     stroke-dasharray: 45;
-    animation: write9 10s forwards linear;
+    animation: write9 6s forwards linear;
 }
 #path3879 {
     stroke-dasharray: 35;
-    animation: write10 10s forwards linear;
+    animation: write10 6s forwards linear;
 }
 #path3881 {
     stroke-dasharray: 34;
-    animation: write11 10s forwards linear;
+    animation: write11 6s forwards linear;
 }
 #path3883 {
     stroke-dasharray: 47;
-    animation: write12 10s forwards linear;
+    animation: write12 6s forwards linear;
 }
 #path3885 {
     stroke-dasharray: 9;
-    animation: write13 9s forwards linear;
+    animation: write13 5s forwards linear;
 }
 
 @keyframes write1 {
